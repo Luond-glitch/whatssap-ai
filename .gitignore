@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment
+.env
+*.key
+
+# Database
+*.db
+*.sqlite
+
+# Session data (important!)
+.wwebjs_auth/
+.wwebjs_cache/
+whatsapp-session/
+*.session
+
+# PM2 logs
+.pm2/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
